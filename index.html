@@ -4,45 +4,94 @@
         <meta charset="utf-8" />
         <title>OpenScriptures Hebrew Bible</title>
         <link rel="stylesheet" href="HomeFiles/OshbStyle.css" />
+        <link rel="shortcut icon" href="HomeFiles/OSHB.ico"/>
     </head>
     <body>
         <header>
             <img src="HomeFiles/Originally.png" width="127" height="127" alt="OpenScriptures Hebrew Bible logo" />
             <h1><span>The OpenScriptures</span><br />Hebrew Bible</h1>
+			<span class="twit">
+				<a href="https://twitter.com/OSHebrewBible" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @OSHebrewBible</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</span>
         </header>
+		<section class="passage">
+			<img src="HomeFiles/VerseDemo.png" alt="Passage illustration" width="539" height="221" />
+		</section>
+		<nav>
+			<ul>
+				<li class="here">Home</li>
+				<li><a href="HomeFiles/Oshb.html">Hebrew Bible</a></li>
+				<li><a href="HomeFiles/Lexicon.html">Lexicon</a></li>
+				<li><a href="HomeFiles/Morph.html">Morphology</a></li>
+				<li><a href="HomeFiles/Accents.html">Cantillation</a></li>
+				<li><a href="HomeFiles/History.html">History</a></li>
+			</ul>
+		</nav>
+		<section class="content">
+			<h2>NEWS</h2>
+			<span class="lead">8/30/2019 <b>No more slashes</b>,
+			<a href="https://hb.openscriptures.org/read/" target="_blank">OSHB Read</a> has been
+			revamped.</span>
+			<p>8/28/2019 New apps, exciting updates. <b>See it in action</b>, under the
+			Resources. Updated descriptions, throughout the site.</p>
+		</section>
         <article>
-            <p>The Open Scripures Hebrew Bible is a project to analyze the Hebrew Bible 
-            by lemma and morphology. The project is marked up in OSIS XML and currently 
-            contains lemma attributes for most words (using Strong's numbers). Soon we 
-            plan to begin adding morphology attributes as well.</p>
-            
+			<p>The vision of the Open Scriptures Hebrew Bible project is not only to provide
+			resources, but to develop a unified system integrating four facets of biblical study.</p>
+			<ol>
+				<li>Starting with the text of the <a href="HomeFiles/Oshb.html">Hebrew Bible</a>.
+				Ours is marked up in
+				<a href="http://crosswire.org/osis/" target="_blank">OSIS</a> XML.</li>
+				
+				<li>Looking up the Hebrew words in a <a href="HomeFiles/Lexicon.html">Lexicon</a>
+				superior to Strong’s dictionary.</li>
+				
+				<li>Interpreting <a href="HomeFiles/Morph.html">Morphology</a> data in a
+				readable format.</li>
+				
+				<li>Visualizing connections and divisions within a verse, recorded by the
+				<a href="http://aleppocodex.org/links/8.html" target="_blank">Masoretes</a>
+				using <a href="HomeFiles/Accents.html">Cantillation</a> marks in the text.</li>
+			</ol>
             <p>Lemma and morphology data are licensed under a
-            <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
-            Attribution-ShareAlike</a> license. For 
+            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons
+            Attribution 4.0 International</a> license. For 
             attribution purposes, credit the Open Scriptures Hebrew Bible Project. The 
-            text of the WLC, including WLC.4.14b.zip in the download section, remains in 
-            the <a href="http://creativecommons.org/licenses/publicdomain/">public domain</a>.</p>
+            text of the <a href="http://www.tanach.us/Tanach.xml" target="_blank" title="Westminster Leningrad Codex">WLC</a> remains in the
+			<a href="http://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain</a>.</p>
         </article>
-        <section>
+        <section class="resource">
             <h2>Resources</h2>
-            <p>Our primary resource is the text of the
-            <a href="https://github.com/openscriptures/morphhb">OpenScriptures Hebrew Bible</a>,
-            recently updated to version 4.16 of the Westminster Leningrad Codex.</p>
-            <p>The augmented Strong numbers in the OSHB are designed to tie into
-            the Brown, Driver, Briggs, Hebrew and English Lexicon of the Old Testament
-            and Strong's Concise Dictionary of the Words in the Hebrew Bible,
-            both available in our
-            <a href="https://github.com/openscriptures/HebrewLexicon">Hebrew Lexicon</a> project.
-            We also include references to the numbering of the Theological Wordbook
-            of the Old Testament, in the Lexical Index.</p>
-            <p>The Hebrew Lexicon has just undergone a complete reformating. We have separated
-            out the BDB and Strong's into individual references, with a cross-index
-            containing basic lexical data and references. This lexical index can
-            even be extended to address other works.</p>
-            <p>Our morphology project is in the beginning stages, and is preparing
-            to use the <a href="http://openscriptures.github.com/morphhb/parsing/HebrewMorphologyCodes.html">Hebrew Morphology Codes</a>
-            to mark the text of the OSHB. A sample application for parsing these codes
-            is available under <a href="https://github.com/openscriptures/morphhb/tree/master/parsing">Morph Parse</a>.</p>
+			<ul>
+				<li>
+					<a href="https://github.com/openscriptures/morphhb" target="_blank">Open Scriptures Hebrew Bible</a>
+					<br />More info: <a href="HomeFiles/Oshb.html">Hebrew Bible</a>
+				</li>
+				<li>
+					<a href="https://github.com/openscriptures/HebrewLexicon" target="_blank">Hebrew Lexicon</a>
+					<br />More info: <a href="HomeFiles/Lexicon.html">Lexicon</a>
+					<br />See it in action:
+					<a href="http://openscriptures.github.io/HebrewLexicon/" target="_blank">OSHB Lexicon</a>
+				</li>
+				<li>
+					<a href="http://openscriptures.github.com/morphhb/parsing/HebrewMorphologyCodes.html" target="_blank">Hebrew Morphology Codes</a>
+					<br />More info: <a href="HomeFiles/Morph.html">Morphology</a>
+					<br />See it in action:
+					<a href="https://hb.openscriptures.org/read/" target="_blank">OSHB Read</a>
+				</li>
+				<li>
+					Cantillation is included in the OSHB
+					<br />More info: <a href="HomeFiles/Accents.html">Cantillation</a>
+					<br />See it in action:
+					<a href="https://hb.openscriptures.org/structure/OshbVerse/" target="_blank">OSHB Verse</a>
+				</li>
+				<li>
+					<a href="https://groups.google.com/forum/#!forum/openscriptures-hb" target="_blank">OSHB Project Email List</a>
+				</li>
+			</ul>
         </section>
+		<div class="license">
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		</div>
     </body>
 </html>
